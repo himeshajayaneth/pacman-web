@@ -86,4 +86,12 @@ We'd love to hear your thoughts! Open an issue or reach out to us on [GitHub](ht
 
 ---
 
+## ©️ Copyright
+
+© 2026 [Himesha Jayaneth](https://github.com/himeshajayaneth). All rights reserved.
+
+This game is developed and maintained by [Himesha Jayaneth](https://github.com/himeshajayaneth). Feel free to explore, contribute, and share!
+
+---
+
 🎉 **Enjoy the game and have fun!** 🎉
