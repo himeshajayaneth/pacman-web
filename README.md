@@ -1,97 +1,80 @@
 # 🟡 PAC-MAN Web Game 🎮
 
-Welcome to the **Pac-Man Web Game**! This is a fully playable, web-based Pac-Man clone built with **HTML5 Canvas** and **Vanilla JavaScript**. Get ready to relive the classic arcade experience right in your browser! 🌟
+A lightweight, web-based Pac‑Man clone built with HTML5 Canvas and vanilla JavaScript. Play directly in your browser — no build tools required.
 
 ---
 
-## 🚀 Features
+## Overview
 
-- **🗺️ Dynamic Grid System**: Walls, dots, power pellets, and open spaces.
-- **👻 Ghost AI**: Random movement with scared mode when Pac-Man eats a power pellet.
-- **🕹️ Smooth Controls**: Play with Arrow Keys, WASD, or the on-screen D-Pad for mobile.
-- **📱 Mobile-Friendly**: Fully responsive design for all devices.
-- **🎯 Score Tracking**: Keep track of your score and lives.
-- **✨ Beautiful UI**: Styled overlays, animations, and a retro vibe.
+This project implements a playable Pac‑Man-style game with a dynamic grid, collectible dots and power pellets, basic ghost AI (including scared mode), score tracking, and mobile-friendly controls.
 
 ---
 
-## 🎮 How to Play
+## Demo / How to run
 
-1. **Start the Game**: Click the `▶ Play` button.
-2. **Move Pac-Man**: Use the following controls:
-   - **Desktop**: Arrow Keys or WASD.
-   - **Mobile**: On-screen D-Pad.
-3. **Objective**:
-   - Eat all the dots and power pellets.
-   - Avoid the ghosts unless they are scared (blue).
-   - Eating a ghost in scared mode gives bonus points!
-4. **Game Over**: Lose all lives or win by clearing the board.
+Quick (no install):
 
----
-
-## 🛠️ Installation
-
-1. Clone the repository:
+1. Clone the repository (or download the ZIP):
    ```bash
    git clone https://github.com/himeshajayaneth/pacman-web.git
    ```
-2. Navigate to the project folder:
-   ```bash
-   cd pacman-web
-   ```
-3. Open `index.html` in your favorite browser.
+2. Open the project folder and double-click `index.html` (or open it in your browser).
+
+Developer note: there is no build step — the game runs as static files.
 
 ---
 
-## 📷 Screenshots
+## Controls
 
-### 🕹️ Gameplay
-![Gameplay Screenshot](https://via.placeholder.com/800x400?text=Gameplay+Screenshot)
-
-### 📱 Mobile View
-![Mobile View Screenshot](https://via.placeholder.com/800x400?text=Mobile+View+Screenshot)
+- Desktop: Arrow Keys or WASD
+- Mobile: On-screen D-Pad (touch)
 
 ---
 
-## 🤝 Contributing
+## Files added in this update
 
-Contributions are welcome! Feel free to fork the repository and submit a pull request. Let's make this game even better! 🚀
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
+- `LICENSE` — MIT License (project is MIT-licensed)
+- `CONTRIBUTING.md` — contribution guidelines and quick test instructions
+- `CODE_OF_CONDUCT.md` — community guidelines for contributors
+- `.gitignore` — ignores OS/IDE and common build artifacts
 
 ---
 
-## 🌟 Acknowledgments
+## Contributing
 
-- Inspired by the classic **Pac-Man** arcade game.
-- Built with ❤️ by [Himesha Jayaneth](https://github.com/himeshajayaneth).
+Contributions are welcome! See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the recommended workflow (fork → branch → PR) and how to report bugs.
 
----
-
-## 🧩 Future Enhancements
-
-- Add more levels with increasing difficulty.
-- Implement advanced ghost AI.
-- Add sound effects and background music.
+If you contribute code, you agree that your contributions will be licensed under the MIT License included in this repo.
 
 ---
 
-## 📨 Feedback
+## License
 
-We'd love to hear your thoughts! Open an issue or reach out to us on [GitHub](https://github.com/himeshajayaneth/pacman-web/issues).
-
----
-
-## ©️ Copyright
-
-© 2026 [Himesha Jayaneth](https://github.com/himeshajayaneth). All rights reserved.
-
-This game is developed and maintained by [Himesha Jayaneth](https://github.com/himeshajayaneth). Feel free to explore, contribute, and share!
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
-🎉 **Enjoy the game and have fun!** 🎉
+## Screenshots
+
+Screenshots are available in the `SS/` folder. Example previews:
+
+- `SS/ScreenShot_20260302215045.png`
+- `SS/ScreenShot_20260302215053.png`
+- `SS/ScreenShot_20260302215112.png`
+
+---
+
+## Acknowledgments
+
+- Inspired by the classic Pac‑Man arcade game.
+- Original author: [Himesha Jayaneth](https://github.com/himeshajayaneth)
+
+---
+
+## Feedback & Issues
+
+Please open issues on the project's GitHub: https://github.com/himeshajayaneth/pacman-web/issues
+
+---
+
+© 2026 Himesha Jayaneth
