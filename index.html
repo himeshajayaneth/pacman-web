@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Pac-Man</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="hud">
+            <div id="score-box">🟡 <span id="score">0</span></div>
+            <div id="lives-box">❤️ <span id="lives">3</span></div>
+        </div>
+        <div id="btn-bar">
+            <button id="play-btn">▶ Play</button>
+            <button id="pause-btn">⏸ Pause</button>
+            <button id="reset-btn">🔄 Reset</button>
+        </div>
+        <div id="canvas-wrap">
+            <canvas id="gameCanvas"></canvas>
+            <div id="overlay">
+                <div id="overlay-title">PAC-MAN</div>
+                <div id="overlay-sub">Press ▶ Play to Start</div>
+                <div id="overlay-hint">Arrow Keys / WASD or D-Pad below</div>
+            </div>
+        </div>
+        <!-- Mobile D-Pad -->
+        <div id="dpad">
+            <div class="dpad-row">
+                <button class="dpad-btn" id="btn-up">▲</button>
+            </div>
+            <div id="dpad-row-mid">
+                <button class="dpad-btn" id="btn-left">◀</button>
+                <div class="dpad-center"></div>
+                <button class="dpad-btn" id="btn-right">▶</button>
+            </div>
+            <div class="dpad-row">
+                <button class="dpad-btn" id="btn-down">▼</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
